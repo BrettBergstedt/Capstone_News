@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+myenv/
+.venv/
+venv/
+
+# Local configuration and databases
+.env
+newsproject/.env
+*.sqlite3
+news_data_backup.json
+postman/*.local.postman_environment.json
+
+# Test and editor files
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
